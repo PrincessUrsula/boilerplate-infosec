@@ -7,7 +7,7 @@ var express = require('express'); // Do Not Edit
 var app = express();              // Do Not Edit
 
 // ----
-
+testString: getUserInput => $.get(getUserInput('url') + '/_api/package.json').then(data => { var packJson = JSON.parse(data); assert.property(packJson.dependencies, 'helmet'); }, xhr => { throw new Error(xhr.responseText); })
 /** - Challenges - *
 ********************/ 
 

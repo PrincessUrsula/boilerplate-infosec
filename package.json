@@ -1,7 +1,5 @@
 {
 "publishConfig": { "registry": "https://npm.pkg.github.com/" }
-$ npm login --registry=https://npm.pkg.github.com/
-$ npm publish
 	"name": "fcc-infosec-challenges",
 	"version": "0.0.1",
 	"description": "fcc backend boilerplate",
